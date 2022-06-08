@@ -22,6 +22,16 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+p.home-hero {
+  font-size: 2em;
+  line-height: 1.55em;
+  font-weight: 400;
+  letter-spacing: -.06em;
+  margin-top: 0;
+}
+.home .article p {
+  margin-top: 0.5em;
+}
 aside, aside.date {
   font-size: 12px;
   line-height: 14px;
@@ -29,12 +39,6 @@ aside, aside.date {
   letter-spacing: .05em;
   font-weight: 600;
   margin-bottom: 1em;
-}
-p.home-hero {
-  font-size: 2em;
-  line-height: 1.55em;
-  font-weight: 400;
-  letter-spacing: -.06em;
 }
 a {
   display: inline-block;

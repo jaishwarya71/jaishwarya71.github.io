@@ -23,7 +23,7 @@
       <meta name="twitter:image" content="https://aishwaryajadhav.in/images/share-image.png">
 
       <link type="text/css" rel="stylesheet" href="/css/styles.css">
-
+      <script type="text/javascript" src="/blog/index.js"></script>
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-655TTPQYN3"></script>
@@ -35,21 +35,16 @@
         gtag('config', 'G-655TTPQYN3');
       </script>
   </head>
-  <body>
+  <body class="blog-post" data-id="p1">
     <div class="page-container">
       <div class="navigation" id="header-navigation"></div>
 
       <div class="articles">
           <div class="article">
-              <aside class="date">
-                  7 June 2022
-              </aside>
-              <h1>
-                Project Descriptions for Architecture
-              </h1>
-              <p>
-                An overview of writing impactful project text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula euismod nibh non volutpat.
-              </p>
+              <aside id="post-date" class="date"></aside>
+              <h1 id="post-title"></h1>
+              <p id="post-summary"></p>
+
               <div class="one picture-group">
                   <div class="picture" style="background-image:url('/blog/images/a-img-1.webp')"></div>
               </div>
@@ -89,9 +84,10 @@
           </div>
       </div>
 
-      <div class="suggested article">
+      <div class="suggested-post article">
         <aside>Read this next</aside>
-        <h1><a href="/blog/post/project-descriptions-for-architecture.html">Getting Projects Featured: A Detailed Guide</a></h1>
+        <h1 id="suggested-title"></h1>
+        <p id="suggested-summary"></p>
         <aside class="index-link"><a href="/blog">&larr; Blog Index</a></aside>
       </div>
 
